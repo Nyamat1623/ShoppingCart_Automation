@@ -34,7 +34,7 @@ public class mainClass {
 	static ExtentReports extent;
     static ExtentTest test;
 
-   @ BeforeClass 
+   @BeforeClass 
 	public void setUp() {
 	// Setup Extent Reports with Spark Reporter
        ExtentSparkReporter sparkReporter = new ExtentSparkReporter("extentReport.html");
