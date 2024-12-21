@@ -2,31 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-18T13:04:38 IST" name="Default suite" finished-at="2024-12-18T13:04:52 IST" duration-ms="13689">
+  <suite started-at="2024-12-21T15:42:04 IST" name="Default suite" finished-at="2024-12-21T15:42:18 IST" duration-ms="14131">
     <groups>
     </groups>
-    <test started-at="2024-12-18T13:04:38 IST" name="Default test" finished-at="2024-12-18T13:04:52 IST" duration-ms="13689">
+    <test started-at="2024-12-21T15:42:04 IST" name="Default test" finished-at="2024-12-21T15:42:18 IST" duration-ms="14131">
       <class name="mainClass">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:mainClass@40a4337a]" started-at="2024-12-18T13:04:38 IST" name="setUp" finished-at="2024-12-18T13:04:42 IST" duration-ms="3663" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mainClass@3eb25e1a]" started-at="2024-12-21T15:42:04 IST" name="setUp" finished-at="2024-12-21T15:42:07 IST" duration-ms="3150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="init(org.testng.ITestResult)[pri:0, instance:mainClass@40a4337a]" started-at="2024-12-18T13:04:42 IST" name="init" finished-at="2024-12-18T13:04:42 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="init(org.testng.ITestResult)[pri:0, instance:mainClass@3eb25e1a]" started-at="2024-12-21T15:42:07 IST" name="init" finished-at="2024-12-21T15:42:07 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=mainClass.test()[pri:0, instance:mainClass@40a4337a] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=mainClass.test()[pri:0, instance:mainClass@3eb25e1a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="test()[pri:0, instance:mainClass@40a4337a]" started-at="2024-12-18T13:04:42 IST" name="test" finished-at="2024-12-18T13:04:51 IST" duration-ms="9457" status="PASS">
+        <test-method signature="test()[pri:0, instance:mainClass@3eb25e1a]" started-at="2024-12-21T15:42:07 IST" name="test" finished-at="2024-12-21T15:42:17 IST" duration-ms="9852" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:mainClass@40a4337a]" started-at="2024-12-18T13:04:51 IST" name="teardown" finished-at="2024-12-18T13:04:52 IST" duration-ms="527" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:mainClass@3eb25e1a]" started-at="2024-12-21T15:42:17 IST" name="teardown" finished-at="2024-12-21T15:42:18 IST" duration-ms="1080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
