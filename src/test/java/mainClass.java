@@ -78,7 +78,7 @@ public class mainClass {
 		WebDriverWait wait = new WebDriverWait(d,Duration.ofSeconds(20));
 		wait.until(ExpectedConditions.visibilityOf(hm.sizeSelection));
 		
-		
+		Thread.sleep(2000);
 		test.info("Size selection button is visible.");
 		
 		try 
@@ -89,6 +89,7 @@ public class mainClass {
 		
 		hm.selectp1BTN();
 		test.pass("Product 1 selected successfully.");
+		Thread.sleep(2000);
 		hm.selectp2BTN();
 		test.pass("Product 2 selected successfully.");
 		
