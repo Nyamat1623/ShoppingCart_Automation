@@ -49,6 +49,7 @@ public class mainClass {
 		d.get("https://react-shopping-cart-67954.firebaseapp.com/");
 		d.manage().window().maximize();
 		d.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
+		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		
 		}
 	
