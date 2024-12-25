@@ -108,7 +108,7 @@ public class mainClass {
 		d.switchTo().alert().accept();
 		
 		
-		test.pass("Checkout completed successfully.");
+		test.pass("Checkout completed successfully. ");
 		Thread.sleep(2000);	
 		
 		} catch(Exception e){
